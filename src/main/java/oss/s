@@ -1,0 +1,40 @@
+// Endpoint以杭州为例，其它Region请按实际情况填写。
+String endpoint = "http://oss-cn-hangzhou.aliyuncs.com";
+// 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
+String accessKeyId = "<yourAccessKeyId>";
+String accessKeySecret = "<yourAccessKeySecret>";
+String bucketName = "<yourBucketName>";
+String objectName = "<yourObjectName>";
+// 您的回调服务器地址，如http://oss-demo.aliyuncs.com:23450或http://127.0.0.1:9090。
+String callbackUrl = "<yourCallbackServerUrl>";
+
+// 创建OSSClient实例。
+OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
+
+String content = "Hello OSS";
+PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, objectName,new ByteArrayInputStream(content.getBytes()));
+
+// 上传回调参数。
+Callback callback = new Callback();
+callback.setCallbackUrl(callbackUrl);
+// 设置回调请求消息头中Host的值，如oss-cn-hangzhou.aliyuncs.com。
+callback.setCallbackHost("oss-cn-hangzhou.aliyuncs.com");
+// 设置发起回调时请求body的值。
+callback.setCallbackBody("{\\\"mimeType\\\":${mimeType},\\\"size\\\":${size}}");
+// 设置发起回调请求的Content-Type。
+callback.setCalbackBodyType(CalbackBodyType.JSON);
+// 设置发起回调请求的自定义参数，由Key和Value组成，Key必须以x:开始。
+callback.addCallbackVar("x:var1", "value1");
+callback.addCallbackVar("x:var2", "value2");
+putObjectRequest.setCallback(callback);
+
+PutObjectResult putObjectResult = ossClient.putObject(putObjectRequest);
+
+// 读取上传回调返回的消息内容。
+byte[] buffer = new byte[1024];
+putObjectResult.getResponse().getContent().read(buffer);
+// 数据读取完成后，获取的流必须关闭，否则会造成连接泄漏，导致请求无连接可用，程序无法正常工作。
+putObjectResult.getResponse().getContent().close();
+
+// 关闭OSSClient。
+ossClient.shutdown();

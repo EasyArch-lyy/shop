@@ -1,0 +1,92 @@
+2020-01-08 20:56:41 下午 [Thread: main][ Class:com.aliyun.oss >> Method: com.aliyun.oss.common.utils.LogUtils.logException(LogUtils.java:70) ]
+WARN:[Server]Unable to execute HTTP request: Private address is forbidden to callback.
+[ErrorCode]: InvalidArgument
+[RequestId]: 5E15D18981FD0B32368CB01A
+[HostId]: 10056.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidArgument</Code>
+  <Message>Private address is forbidden to callback.</Message>
+  <RequestId>5E15D18981FD0B32368CB01A</RequestId>
+  <HostId>10056.oss-cn-beijing.aliyuncs.com</HostId>
+  <ArgumentName>callbackUrl</ArgumentName>
+  <ArgumentValue>http://127.0.0.1:8080</ArgumentValue>
+</Error>
+
+2020-01-08 21:06:01 下午 [Thread: main][ Class:com.aliyun.oss >> Method: com.aliyun.oss.common.utils.LogUtils.logException(LogUtils.java:70) ]
+WARN:[Server]Unable to execute HTTP request: Private address is forbidden to callback.
+[ErrorCode]: InvalidArgument
+[RequestId]: 5E15D3B9794A9234302DF7C3
+[HostId]: 10056.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidArgument</Code>
+  <Message>Private address is forbidden to callback.</Message>
+  <RequestId>5E15D3B9794A9234302DF7C3</RequestId>
+  <HostId>10056.oss-cn-beijing.aliyuncs.com</HostId>
+  <ArgumentName>callbackUrl</ArgumentName>
+  <ArgumentValue>http://127.0.0.1:8080</ArgumentValue>
+</Error>
+
+2020-01-08 21:46:17 下午 [Thread: pool-2-thread-1][ Class:netty.Handler >> Method: netty.Handler.channelRead(Handler.java:29) ]
+INFO:===================进入netty channelRead了=======================
+2020-01-08 21:46:17 下午 [Thread: pool-2-thread-1][ Class:netty.Handler >> Method: netty.Handler.channelRead(Handler.java:31) ]
+INFO:进入http请求了
+2020-01-08 21:46:17 下午 [Thread: pool-2-thread-1][ Class:netty.Handler >> Method: netty.Handler.handleHttpRequest(Handler.java:49) ]
+INFO:userid:null,token:null
+2020-01-08 21:46:18 下午 [Thread: pool-2-thread-1][ Class:io.netty.channel.DefaultChannelPipeline >> Method: io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1188) ]
+WARN:An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.RedisUtil.getJedis(RedisUtil.java:39)
+	at netty.Handler.handleHttpRequest(Handler.java:50)
+	at netty.Handler.channelRead(Handler.java:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:421)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:321)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 31 more
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 38 more
