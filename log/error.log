@@ -1,0 +1,4 @@
+2020-02-20 13:40:04 下午 [Thread: pool-2-thread-1][ Class:netty.Handler >> Method: netty.Handler.handleHttpRequest(Handler.java:69) ]
+ERROR:===========全局异常错误!!!===========
+2020-02-20 13:41:03 下午 [Thread: pool-2-thread-4][ Class:netty.Handler >> Method: netty.Handler.handleHttpRequest(Handler.java:69) ]
+ERROR:===========全局异常错误!!!===========

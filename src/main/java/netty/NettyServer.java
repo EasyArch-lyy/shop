@@ -42,11 +42,11 @@ public class NettyServer {
                     .childOption(ChannelOption.SO_KEEPALIVE, true);//设置长连接
 //172.31.247.4
             ChannelFuture future = bootstrap.bind("127.0.0.1", 8080).sync();//绑定端口
-            System.out.println("oknetty");
-            //阻止程序关闭
+            System.out.println("netty服务端就绪");
+
             future.channel().closeFuture().sync();
 
-            System.out.println("xxx");
+            System.out.println("netty服务端关闭");
 
 
         } catch (InterruptedException e) {

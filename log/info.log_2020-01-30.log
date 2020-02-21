@@ -1,0 +1,16 @@
+2020-01-30 15:31:30 下午 [Thread: main][ Class:com.aliyun.oss >> Method: com.aliyun.oss.common.utils.LogUtils.logException(LogUtils.java:70) ]
+WARN:[Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5E32865188FF7D3735E5426B
+[HostId]: onlineclassshop.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5E32865188FF7D3735E5426B</RequestId>
+  <HostId>onlineclassshop.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <Bucket>onlineclassshop</Bucket>
+  <Endpoint>oss-cn-beijing.aliyuncs.com</Endpoint>
+</Error>
+

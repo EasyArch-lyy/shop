@@ -1,20 +1,20 @@
 2020-01-10 02:50:30 上午 [Thread: main][ Class:com.aliyun.oss >> Method: com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:766) ]
 INFO:Illegal file path: 
-2020-01-10 03:33:18 上午 [Thread: main][ Class:mybatis.User_courseTest >> Method: mybatis.User_courseTest.testInsert(User_courseTest.java:37) ]
+2020-01-10 03:33:18 上午 [Thread: main][ Class:dao.mapper.MybatisDao >> Method: dao.mapper.MybatisDao.testInsert(User_courseTest.java:37) ]
 INFO:添加学生
-2020-01-10 06:15:15 上午 [Thread: main][ Class:mybatis.User_courseTest >> Method: mybatis.User_courseTest.testInsert(User_courseTest.java:38) ]
+2020-01-10 06:15:15 上午 [Thread: main][ Class:dao.mapper.MybatisDao >> Method: dao.mapper.MybatisDao.testInsert(User_courseTest.java:38) ]
 INFO:添加学生
-2020-01-10 06:17:07 上午 [Thread: main][ Class:mybatis.User_courseTest >> Method: mybatis.User_courseTest.testInsert(User_courseTest.java:38) ]
+2020-01-10 06:17:07 上午 [Thread: main][ Class:dao.mapper.MybatisDao >> Method: dao.mapper.MybatisDao.testInsert(User_courseTest.java:38) ]
 INFO:添加学生
-2020-01-10 06:17:14 上午 [Thread: main][ Class:mybatis.User_courseTest >> Method: mybatis.User_courseTest.testInsert(User_courseTest.java:38) ]
+2020-01-10 06:17:14 上午 [Thread: main][ Class:dao.mapper.MybatisDao >> Method: dao.mapper.MybatisDao.testInsert(User_courseTest.java:38) ]
 INFO:添加学生
-2020-01-10 06:17:25 上午 [Thread: main][ Class:mybatis.User_courseTest >> Method: mybatis.User_courseTest.testInsert(User_courseTest.java:38) ]
+2020-01-10 06:17:25 上午 [Thread: main][ Class:dao.mapper.MybatisDao >> Method: dao.mapper.MybatisDao.testInsert(User_courseTest.java:38) ]
 INFO:添加学生
-2020-01-10 17:47:04 下午 [Thread: main][ Class:mybatis.User_courseTest >> Method: mybatis.User_courseTest.testInsert(User_courseTest.java:38) ]
+2020-01-10 17:47:04 下午 [Thread: main][ Class:dao.mapper.MybatisDao >> Method: dao.mapper.MybatisDao.testInsert(User_courseTest.java:38) ]
 INFO:添加学生
-2020-01-10 17:47:13 下午 [Thread: main][ Class:mybatis.User_courseTest >> Method: mybatis.User_courseTest.testInsert(User_courseTest.java:38) ]
+2020-01-10 17:47:13 下午 [Thread: main][ Class:dao.mapper.MybatisDao >> Method: dao.mapper.MybatisDao.testInsert(User_courseTest.java:38) ]
 INFO:添加学生
-2020-01-10 17:47:22 下午 [Thread: main][ Class:mybatis.User_courseTest >> Method: mybatis.User_courseTest.testInsert(User_courseTest.java:38) ]
+2020-01-10 17:47:22 下午 [Thread: main][ Class:dao.mapper.MybatisDao >> Method: dao.mapper.MybatisDao.testInsert(User_courseTest.java:38) ]
 INFO:添加学生
 2020-01-10 20:24:36 下午 [Thread: main][ Class:com.aliyun.oss >> Method: com.aliyun.oss.common.utils.LogUtils.logException(LogUtils.java:70) ]
 WARN:[Server]Unable to execute HTTP request: The callback configuration is not json format.

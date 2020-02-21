@@ -4,11 +4,21 @@ public class User_grade {
     private String username;
     private String course;
     private int grade;
+    private String answer;
 
-    public User_grade(String username, String course, int grade) {
+    public User_grade(String username, String course, int grade, String answer) {
         this.username = username;
         this.course = course;
         this.grade = grade;
+        this.answer = answer;
+    }
+
+    public String getAnswer() {
+        return answer;
+    }
+
+    public void setAnswer(String answer) {
+        this.answer = answer;
     }
 
     public String getUsername() {

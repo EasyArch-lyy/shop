@@ -2,7 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b0ecec-679c-4d40-8f69-1348e6f7689f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ChooseCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SelectPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ToURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/UpdatePaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/mapper/MybatisControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/mapper/MybatisDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/mapper/URLMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/mapper/UserMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/mapper/UsercourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/mapper/UsergradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/json/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/json/Tojson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mongo/MyMongodb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mysql/Linksql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oss/Anti_theft_chain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oss/HeaderSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oss/STSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oss/UpOSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/URLObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redis/redis/IRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redis/redis/Redis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/MongoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78e75368-bf4e-469d-8cc7-e57b88d6bee1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78e75368-bf4e-469d-8cc7-e57b88d6bee1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/info.log_2020-01-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/info.log_2020-01-10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/MybatisControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/User_course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/User_course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/User_courseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/User_courseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/User_grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mybatis/User_grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/User_gradeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redis/RedisControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redis/RedisControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/json/GenerateJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/json/GenerateJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/MybatisControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/User_course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/User_courseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/User_courseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/User_grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/User_grade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/User_gradeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/redis/RedisControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redis/RedisControl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +94,7 @@
         <item name="dianshang@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="dianshang: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="user_grade: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="user_course: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -54,6 +107,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,113 +131,132 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578589143064" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/dao/mapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
+      <recent name="mongo" />
       <recent name="mybatis" />
       <recent name="" />
       <recent name="redis" />
-      <recent name="json" />
-      <recent name="oss" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/main/java/mybatis/test" />
-      <recent name="$PROJECT_DIR$/src/main/java/test/test2" />
+      <recent name="$PROJECT_DIR$/src/main/java/dao/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/java/redis" />
       <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/controller" />
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenerateJSON">
-    <configuration name="GenerateJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.GenerateJSON" />
+  <component name="RunManager" selected="JUnit.MybatisDao.getf">
+    <configuration name="MybatisControl.isChoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.*" />
+          <option name="PATTERN" value="dao.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dao.mapper" />
+      <option name="MAIN_CLASS_NAME" value="dao.mapper.MybatisControl" />
+      <option name="METHOD_NAME" value="isChoose" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.test.HttpClient" />
+    <configuration name="MybatisDao.getf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.test.*" />
+          <option name="PATTERN" value="dao.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dao.mapper" />
+      <option name="MAIN_CLASS_NAME" value="dao.mapper.MybatisDao" />
+      <option name="METHOD_NAME" value="getf" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.NettyServer" />
+    <configuration name="MybatisDao.isChoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.*" />
+          <option name="PATTERN" value="dao.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dao.mapper" />
+      <option name="MAIN_CLASS_NAME" value="dao.mapper.MybatisDao" />
+      <option name="METHOD_NAME" value="isChoose" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OssCRUD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oss.OssCRUD" />
+    <configuration name="MybatisDao.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oss.*" />
+          <option name="PATTERN" value="dao.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dao.mapper" />
+      <option name="MAIN_CLASS_NAME" value="dao.mapper.MybatisDao" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncHttpResponse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.SyncHttpResponse.SyncHttpResponse" />
+    <configuration name="MybatisDao.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.SyncHttpResponse.*" />
+          <option name="PATTERN" value="dao.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dao.mapper" />
+      <option name="MAIN_CLASS_NAME" value="dao.mapper.MybatisDao" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HttpClient" />
-      <item itemvalue="Application.SyncHttpResponse" />
-      <item itemvalue="Application.OssCRUD" />
-      <item itemvalue="Application.NettyServer" />
-      <item itemvalue="Application.GenerateJSON" />
+      <item itemvalue="JUnit.MybatisControl.isChoose" />
+      <item itemvalue="JUnit.MybatisDao.testUpdate" />
+      <item itemvalue="JUnit.MybatisDao.testDelete" />
+      <item itemvalue="JUnit.MybatisDao.isChoose" />
+      <item itemvalue="JUnit.MybatisDao.getf" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenerateJSON" />
-        <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.SyncHttpResponse" />
-        <item itemvalue="Application.OssCRUD" />
-        <item itemvalue="Application.HttpClient" />
+        <item itemvalue="JUnit.MybatisDao.getf" />
+        <item itemvalue="JUnit.MybatisDao.isChoose" />
+        <item itemvalue="JUnit.MybatisDao.testDelete" />
+        <item itemvalue="JUnit.MybatisDao.testUpdate" />
+        <item itemvalue="JUnit.MybatisControl.isChoose" />
       </list>
     </recent_temporary>
   </component>
@@ -190,16 +264,12 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.17128874" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:dianshang@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:dianshang@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3f1eebe7" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -237,6 +307,30 @@
       <workItem from="1578658705775" duration="3977000" />
       <workItem from="1578703223836" duration="4395000" />
       <workItem from="1578801683580" duration="85000" />
+      <workItem from="1579135882425" duration="4806000" />
+      <workItem from="1580173143305" duration="1334000" />
+      <workItem from="1580365243330" duration="3898000" />
+      <workItem from="1580372322826" duration="191000" />
+      <workItem from="1580389034045" duration="3699000" />
+      <workItem from="1580432309185" duration="1180000" />
+      <workItem from="1580605197015" duration="1202000" />
+      <workItem from="1580606911318" duration="831000" />
+      <workItem from="1580632987620" duration="18000" />
+      <workItem from="1580633011788" duration="400000" />
+      <workItem from="1580633498920" duration="1225000" />
+      <workItem from="1580798206706" duration="4960000" />
+      <workItem from="1580885486590" duration="1200000" />
+      <workItem from="1580909081957" duration="284000" />
+      <workItem from="1580973745899" duration="1162000" />
+      <workItem from="1581064817729" duration="546000" />
+      <workItem from="1581501891017" duration="164000" />
+      <workItem from="1581502060793" duration="112000" />
+      <workItem from="1581684379702" duration="1432000" />
+      <workItem from="1582176695066" duration="9296000" />
+      <workItem from="1582197185408" duration="86000" />
+      <workItem from="1582217915998" duration="1855000" />
+      <workItem from="1582256625968" duration="5865000" />
+      <workItem from="1582270894871" duration="17746000" />
     </task>
     <servers />
   </component>
@@ -244,105 +338,105 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="762" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1578667222230">
+    <state x="762" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1582303161397">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="762" y="224" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1578667222230" />
-    <state x="0" y="24" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578658427491">
+    <state x="762" y="224" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1582303161397" />
+    <state x="0" y="24" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582292535209">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="0" y="24" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1578658427491" />
-    <state x="689" y="297" key="FileChooserDialogImpl" timestamp="1578801731160">
+    <state x="0" y="24" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1582292535209" />
+    <state x="689" y="297" key="FileChooserDialogImpl" timestamp="1582197269587">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="689" y="297" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1578801731160" />
-    <state width="1868" height="269" key="GridCell.Tab.0.bottom" timestamp="1578726836901">
+    <state x="689" y="297" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1582197269587" />
+    <state width="1868" height="125" key="GridCell.Tab.0.bottom" timestamp="1582302783400">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="269" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1578726836901" />
-    <state width="1868" height="269" key="GridCell.Tab.0.center" timestamp="1578726836899">
+    <state width="1868" height="125" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1582302783400" />
+    <state width="1868" height="125" key="GridCell.Tab.0.center" timestamp="1582302783399">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="269" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1578726836899" />
-    <state width="1868" height="269" key="GridCell.Tab.0.left" timestamp="1578726836898">
+    <state width="1868" height="125" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1582302783399" />
+    <state width="1868" height="125" key="GridCell.Tab.0.left" timestamp="1582302783399">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="269" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1578726836898" />
-    <state width="1868" height="269" key="GridCell.Tab.0.right" timestamp="1578726836900">
+    <state width="1868" height="125" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1582302783399" />
+    <state width="1868" height="125" key="GridCell.Tab.0.right" timestamp="1582302783399">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="269" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1578726836900" />
-    <state width="1868" height="363" key="GridCell.Tab.1.bottom" timestamp="1578658524048">
+    <state width="1868" height="125" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1582302783399" />
+    <state width="1868" height="333" key="GridCell.Tab.1.bottom" timestamp="1582292208402">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524048" />
-    <state width="1868" height="363" key="GridCell.Tab.1.center" timestamp="1578658524046">
+    <state width="1868" height="333" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208402" />
+    <state width="1868" height="333" key="GridCell.Tab.1.center" timestamp="1582292208402">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524046" />
-    <state width="1868" height="363" key="GridCell.Tab.1.left" timestamp="1578658524046">
+    <state width="1868" height="333" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208402" />
+    <state width="1868" height="333" key="GridCell.Tab.1.left" timestamp="1582292208402">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524046" />
-    <state width="1868" height="363" key="GridCell.Tab.1.right" timestamp="1578658524047">
+    <state width="1868" height="333" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208402" />
+    <state width="1868" height="333" key="GridCell.Tab.1.right" timestamp="1582292208402">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524047" />
-    <state width="1868" height="363" key="GridCell.Tab.2.bottom" timestamp="1578658524049">
+    <state width="1868" height="333" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208402" />
+    <state width="1868" height="333" key="GridCell.Tab.2.bottom" timestamp="1582292208403">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.2.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524049" />
-    <state width="1868" height="363" key="GridCell.Tab.2.center" timestamp="1578658524049">
+    <state width="1868" height="333" key="GridCell.Tab.2.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208403" />
+    <state width="1868" height="333" key="GridCell.Tab.2.center" timestamp="1582292208403">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.2.center/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524049" />
-    <state width="1868" height="363" key="GridCell.Tab.2.left" timestamp="1578658524048">
+    <state width="1868" height="333" key="GridCell.Tab.2.center/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208403" />
+    <state width="1868" height="333" key="GridCell.Tab.2.left" timestamp="1582292208403">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.2.left/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524048" />
-    <state width="1868" height="363" key="GridCell.Tab.2.right" timestamp="1578658524049">
+    <state width="1868" height="333" key="GridCell.Tab.2.left/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208403" />
+    <state width="1868" height="333" key="GridCell.Tab.2.right" timestamp="1582292208403">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.2.right/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524049" />
-    <state width="1868" height="363" key="GridCell.Tab.3.bottom" timestamp="1578658524050">
+    <state width="1868" height="333" key="GridCell.Tab.2.right/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208403" />
+    <state width="1868" height="333" key="GridCell.Tab.3.bottom" timestamp="1582292208403">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.3.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524050" />
-    <state width="1868" height="363" key="GridCell.Tab.3.center" timestamp="1578658524049">
+    <state width="1868" height="333" key="GridCell.Tab.3.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208403" />
+    <state width="1868" height="333" key="GridCell.Tab.3.center" timestamp="1582292208403">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.3.center/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524049" />
-    <state width="1868" height="363" key="GridCell.Tab.3.left" timestamp="1578658524049">
+    <state width="1868" height="333" key="GridCell.Tab.3.center/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208403" />
+    <state width="1868" height="333" key="GridCell.Tab.3.left" timestamp="1582292208403">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.3.left/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524049" />
-    <state width="1868" height="363" key="GridCell.Tab.3.right" timestamp="1578658524050">
+    <state width="1868" height="333" key="GridCell.Tab.3.left/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208403" />
+    <state width="1868" height="333" key="GridCell.Tab.3.right" timestamp="1582292208403">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1868" height="363" key="GridCell.Tab.3.right/0.24.1920.1056@0.24.1920.1056" timestamp="1578658524050" />
-    <state x="498" y="197" key="Maven.ArtifactSearchDialog" timestamp="1578596017017">
+    <state width="1868" height="333" key="GridCell.Tab.3.right/0.24.1920.1056@0.24.1920.1056" timestamp="1582292208403" />
+    <state x="498" y="197" key="Maven.ArtifactSearchDialog" timestamp="1580371034905">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="498" y="197" key="Maven.ArtifactSearchDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1578596017017" />
-    <state x="15" y="240" width="1887" height="596" key="new project wizard" timestamp="1578801763517">
+    <state x="498" y="197" key="Maven.ArtifactSearchDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1580371034905" />
+    <state x="410" y="219" width="1245" height="728" key="SettingsEditor" timestamp="1582270861834">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="15" y="240" width="1887" height="596" key="new project wizard/0.24.1920.1056@0.24.1920.1056" timestamp="1578801763517" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="410" y="219" width="1245" height="728" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1582270861834" />
+    <state x="770" y="391" width="445" height="293" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582178596052">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="770" y="391" width="445" height="293" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.24.1920.1056@0.24.1920.1056" timestamp="1582178596052" />
+    <state x="629" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579136769026">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="629" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1579136769026" />
+    <state x="15" y="240" width="1887" height="596" key="new project wizard" timestamp="1581502169083">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="15" y="240" width="1887" height="596" key="new project wizard/0.24.1920.1056@0.24.1920.1056" timestamp="1581502169083" />
+    <state x="599" y="257" width="719" height="678" key="search.everywhere.popup" timestamp="1582301327577">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="599" y="257" width="719" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1582301327577" />
   </component>
 </project>

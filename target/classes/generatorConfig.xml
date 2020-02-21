@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PLUBLIC "-//mybatis.org??DTD Mybatis Generator Congfiguration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="DB2Tables" targetRuntime="Mybatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="true"/>
+            <proterty name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <!--数据库驱动-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/dianshang"
+                        userId="root"
+                        password="candy">
+        </jdbcConnection>
+        <!---->
+        <javaTypeResolver>
+            <proerty name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        <!--生成Model类的包名及存放位置-->
+        <javaModelGenerator targetPacket="model" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!--生成映射文件的包名和存放位置-->
+        <sqlMapGenerator targetPackage="mybatis" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+        <!--生成Dao类包名和存放位置-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="pojo" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+        <!--生成对应表及类名-->
+        <table tableName="user_message" domainObjectName="TUser"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableByExample="false" enableSelectByExample="false"
+               selextByExampleQueryId="false">
+        </table>
+    </context>
+</generatorConfiguration>

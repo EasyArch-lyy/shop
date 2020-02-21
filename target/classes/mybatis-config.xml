@@ -25,7 +25,7 @@
         </environment>
     </environments>
     <mappers>
-        <package name="mybatis"/>
+        <package name="dao"/>
     </mappers>
 <!--    <mappers>-->
 <!--        &lt;!&ndash;用别名更加简洁方便&ndash;&gt;-->
